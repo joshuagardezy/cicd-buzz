@@ -1,0 +1,34 @@
+{
+ "properties": {
+  "displayName": "policy-naming-convention-kv",
+  "policyType": "Custom",
+  "mode": "All",
+  "metadata": {
+   "createdBy": "0cda2865-7f75-4976-938e-5adc1dd83c51",
+   "createdOn": "2022-02-07T14:14:51.7258912Z",
+   "updatedBy": "0cda2865-7f75-4976-938e-5adc1dd83c51",
+   "updatedOn": "2022-02-09T15:37:32.8258299Z"
+  },
+  "parameters": {},
+  "policyRule": {
+   "if": {
+    "allOf": [
+     {
+      "field": "type",
+      "equals": "Microsoft.KeyVault/vaults"
+     },
+     {
+      "field": "name",
+      "notContains": "-kv-"
+     }
+    ]
+   },
+   "then": {
+    "effect": "Deny"
+   }
+  }
+ },
+ "id": "/subscriptions/3afd5d87-ef34-466e-a138-67935700bfd0/providers/Microsoft.Authorization/policyDefinitions/policy-naming-convention-kv",
+ "type": "Microsoft.Authorization/policyDefinitions",
+ "name": "policy-naming-convention-kv"
+}
