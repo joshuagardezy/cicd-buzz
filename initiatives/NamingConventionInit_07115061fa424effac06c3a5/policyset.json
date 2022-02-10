@@ -1,0 +1,74 @@
+{
+ "properties": {
+  "displayName": "NamingConventionInit",
+  "policyType": "Custom",
+  "description": "",
+  "metadata": {
+   "createdBy": "0cda2865-7f75-4976-938e-5adc1dd83c51",
+   "createdOn": "2022-02-07T14:27:17.5458865Z",
+   "updatedBy": "0cda2865-7f75-4976-938e-5adc1dd83c51",
+   "updatedOn": "2022-02-09T13:33:58.6541753Z"
+  },
+  "parameters": {},
+  "policyDefinitions": [
+   {
+    "policyDefinitionReferenceId": "policy-naming-convention-agw_1",
+    "policyDefinitionId": "/subscriptions/3afd5d87-ef34-466e-a138-67935700bfd0/providers/Microsoft.Authorization/policyDefinitions/policy-naming-convention-agw",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "policy-naming-convention-aks_1",
+    "policyDefinitionId": "/subscriptions/3afd5d87-ef34-466e-a138-67935700bfd0/providers/Microsoft.Authorization/policyDefinitions/policy-naming-convention-aks",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "policy-naming-convention-asg_1",
+    "policyDefinitionId": "/subscriptions/3afd5d87-ef34-466e-a138-67935700bfd0/providers/Microsoft.Authorization/policyDefinitions/policy-naming-convention-asg",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "policy-naming-convention-kv_1",
+    "policyDefinitionId": "/subscriptions/3afd5d87-ef34-466e-a138-67935700bfd0/providers/Microsoft.Authorization/policyDefinitions/policy-naming-convention-kv",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "policy-naming-convention-mysql_1",
+    "policyDefinitionId": "/subscriptions/3afd5d87-ef34-466e-a138-67935700bfd0/providers/Microsoft.Authorization/policyDefinitions/policy-naming-convention-mysql",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "policy-naming-convention-nsg_1",
+    "policyDefinitionId": "/subscriptions/3afd5d87-ef34-466e-a138-67935700bfd0/providers/Microsoft.Authorization/policyDefinitions/policy-naming-convention-nsg",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "policy-naming-convention-rg_1",
+    "policyDefinitionId": "/subscriptions/3afd5d87-ef34-466e-a138-67935700bfd0/providers/Microsoft.Authorization/policyDefinitions/policy-naming-convention-rg",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "policy-naming-convention-vnet_1",
+    "policyDefinitionId": "/subscriptions/3afd5d87-ef34-466e-a138-67935700bfd0/providers/Microsoft.Authorization/policyDefinitions/policy-naming-convention-vnet",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "policy-naming-convention-waf_1",
+    "policyDefinitionId": "/subscriptions/3afd5d87-ef34-466e-a138-67935700bfd0/providers/Microsoft.Authorization/policyDefinitions/policy-naming-convention-waf",
+    "parameters": {},
+    "groupNames": []
+   }
+  ],
+  "policyDefinitionGroups": []
+ },
+ "id": "/subscriptions/3afd5d87-ef34-466e-a138-67935700bfd0/providers/Microsoft.Authorization/policySetDefinitions/07115061fa424effac06c3a5",
+ "type": "Microsoft.Authorization/policySetDefinitions",
+ "name": "07115061fa424effac06c3a5"
+}
